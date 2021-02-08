@@ -4,7 +4,7 @@ import re
 from unidecode import unidecode
 from tqdm import tqdm
 
-from the_wizard_express.config import Config
+from odqa.config import Config
 
 def test_dense_retriever(q_encoder, q_tokenizer, dataset, corpus, k=100):
     def normalize_string(text):

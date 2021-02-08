@@ -1,4 +1,4 @@
-"""Console script for the_wizard_express."""
+"""Console script for odqa."""
 import sys
 from multiprocessing import cpu_count
 from datasets import load_from_disk

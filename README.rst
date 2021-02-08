@@ -1,6 +1,6 @@
-==================
-🧙‍♀️🧙‍♂️ The wizard express
-==================
+==============================
+Open-domain question answering
+==============================
 
 Main model for master thesis
 

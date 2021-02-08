@@ -7,10 +7,10 @@ import time
 import numpy as np
 from tqdm import tqdm
 from transformers import Trainer, get_linear_schedule_with_warmup, AdamW
-from the_wizard_express.validation.squad import Squad
-from the_wizard_express.validation.accuracy import Accuracy
+from odqa.validation.squad import Squad
+from odqa.validation.accuracy import Accuracy
 from torch.nn import CrossEntropyLoss
-from the_wizard_express.config import Config
+from odqa.config import Config
 
 class QATrainer():
     def __init__(self, reader, retriever, reader_tokenizer, question_tokenizer, train_data, validation_data, corpus, bert=False, sparse=False):

@@ -8,12 +8,12 @@ from transformers import BertConfig, BertTokenizerFast
 from official.nlp import bert
 from tqdm import tqdm
 
-from the_wizard_express.datasets.triviaqa import TriviaQA
-from the_wizard_express.datasets.nq import NQ
-from the_wizard_express.datasets.squad import Squad
-from the_wizard_express.reader.realm import REALMReader
-from the_wizard_express.embedder.realm import REALMEmbedder
-from the_wizard_express.config import Config
+from odqa.datasets.triviaqa import TriviaQA
+from odqa.datasets.nq import NQ
+from odqa.datasets.squad import Squad
+from odqa.reader.realm import REALMReader
+from odqa.embedder.realm import REALMEmbedder
+from odqa.config import Config
 
 def test_realm_tokenizer(vocabfile):
     tokenizer = BertTokenizerFast(vocabfile)

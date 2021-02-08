@@ -1,6 +1,6 @@
-"""Top-level package for The wizard express."""
+"""Top-level package for ODQA."""
 
-__author__ = """Alexandros Dorodoulis, Amalia Matei, Jesper Lund Petersen"""
+__author__ = """Jesper Lund Petersen, Alexandros Dorodoulis, and Amalia Matei"""
 __email__ = ""
 __version__ = "0.0.1"
 __all__ = [

@@ -1,17 +1,17 @@
 #!/usr/bin/env python
 
-"""Tests for `the_wizard_express` package."""
+"""Tests for `odqa` package."""
 
 
 import unittest
 
 from click.testing import CliRunner
 
-from the_wizard_express import cli
+from odqa import cli
 
 
-class TestThe_wizard_express(unittest.TestCase):
-    """Tests for `the_wizard_express` package."""
+class Testodqa(unittest.TestCase):
+    """Tests for `odqa` package."""
 
     def setUp(self):
         """Set up test fixtures, if any."""
@@ -27,7 +27,7 @@ class TestThe_wizard_express(unittest.TestCase):
         runner = CliRunner()
         result = runner.invoke(cli.main)
         assert result.exit_code == 0
-        assert "the_wizard_express.cli.main" in result.output
+        assert "odqa.cli.main" in result.output
         help_result = runner.invoke(cli.main, ["--help"])
         assert help_result.exit_code == 0
         assert "--help  Show this message and exit." in help_result.output

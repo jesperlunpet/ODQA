@@ -8,13 +8,13 @@ Installation
 Stable release
 --------------
 
-To install The wizard express, run this command in your terminal:
+To install, run this command in your terminal:
 
 .. code-block:: console
 
-    $ pip install the_wizard_express
+    $ pip install odqa
 
-This is the preferred method to install The wizard express, as it will always install the most recent stable release.
+This is the preferred method to install ODQA, as it will always install the most recent stable release.
 
 If you don't have `pip`_ installed, this `Python installation guide`_ can guide
 you through the process.
@@ -26,19 +26,19 @@ you through the process.
 From sources
 ------------
 
-The sources for The wizard express can be downloaded from the `Github repo`_.
+The sources for ODQA can be downloaded from the `Github repo`_.
 
 You can either clone the public repository:
 
 .. code-block:: console
 
-    $ git clone git://github.com/alexdor/the_wizard_express
+    $ git clone git://github.com/jesperlunpet/odqa
 
 Or download the `tarball`_:
 
 .. code-block:: console
 
-    $ curl -OJL https://github.com/alexdor/the_wizard_express/tarball/master
+    $ curl -OJL https://github.com/jesperlunpet/odqa/tarball/master
 
 Once you have a copy of the source, you can install it with:
 
@@ -47,5 +47,5 @@ Once you have a copy of the source, you can install it with:
     $ python setup.py install
 
 
-.. _Github repo: https://github.com/alexdor/the_wizard_express
-.. _tarball: https://github.com/alexdor/the_wizard_express/tarball/master
+.. _Github repo: https://github.com/jesperlunpet/odqa
+.. _tarball: https://github.com/jesperlunpet/odqa/tarball/master

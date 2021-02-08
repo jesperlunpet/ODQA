@@ -30,7 +30,7 @@ setup_requirements = []
 
 
 setup(
-    author="Alexandros Dorodoulis, Amalia Matei, Jesper Lund Petersen",
+    author="Jesper Lund Petersen, Alexandros Dorodoulis, and Amalia Matei",
     author_email="",
     python_requires=">=3.5",
     classifiers=[
@@ -54,19 +54,19 @@ setup(
     description="Main model for master thesis",
     entry_points={
         "console_scripts": [
-            "the_wizard_express=the_wizard_express.cli:main",
+            "odqa=odqa.cli:main",
         ],
     },
     install_requires=requirements,
     long_description=readme + "\n\n" + history,
     include_package_data=True,
-    keywords="the_wizard_express",
-    name="the_wizard_express",
-    packages=find_packages(include=["the_wizard_express", "the_wizard_express.*"]),
+    keywords="odqa",
+    name="odqa",
+    packages=find_packages(include=["odqa", "odqa.*"]),
     setup_requires=setup_requirements,
     test_suite="tests",
     tests_require=test_requirements,
-    url="https://github.com/alexdor/the_wizard_express",
+    url="https://github.com/jesperlunpet/odqa",
     version="0.0.1",
     zip_safe=False,
 )

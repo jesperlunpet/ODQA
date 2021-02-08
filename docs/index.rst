@@ -1,4 +1,4 @@
-Welcome to The wizard express's documentation!
+Welcome to ODQA's documentation!
 ======================================
 
 .. toctree::

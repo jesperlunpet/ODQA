@@ -48,7 +48,7 @@ clean-test: ## remove test and coverage artifacts
 	rm -fr .pytest_cache
 
 lint: ## check style with flake8
-	flake8 the_wizard_express tests
+	flake8 odqa tests
 
 test: ## run tests quickly with the default Python
 	python setup.py test
@@ -57,15 +57,15 @@ test-all: ## run tests on every Python version with tox
 	tox
 
 coverage: ## check code coverage quickly with the default Python
-	coverage run --source the_wizard_express setup.py test
+	coverage run --source odqa setup.py test
 	coverage report -m
 	coverage html
 	$(BROWSER) htmlcov/index.html
 
 docs: ## generate Sphinx HTML documentation, including API docs
-	rm -f docs/the_wizard_express.rst
+	rm -f docs/odqa.rst
 	rm -f docs/modules.rst
-	sphinx-apidoc -o docs/ the_wizard_express
+	sphinx-apidoc -o docs/ odqa
 	$(MAKE) -C docs clean
 	$(MAKE) -C docs html
 	$(BROWSER) docs/_build/html/index.html
@@ -89,8 +89,8 @@ install: clean ## install the package to the active Python's site-packages
 	python3 setup.py install
 
 run: ## execute cli
-	python3 -m the_wizard_express
+	python3 -m odqa
 
 
 command: ## execute a specific command by passing the command argument
-	python3 -m the_wizard_express $(command)
+	python3 -m odqa $(command)

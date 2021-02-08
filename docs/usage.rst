@@ -2,6 +2,6 @@
 Usage
 =====
 
-To use The wizard express in a project::
+To use ODQA in a project::
 
-    import the_wizard_express
+    import odqa

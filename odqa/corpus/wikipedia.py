@@ -7,8 +7,8 @@ from typing import List
 
 from datasets import load_dataset, load_from_disk
 
-from the_wizard_express.config import Config
-from the_wizard_express.corpus.corpus import Corpus
+from odqa.config import Config
+from odqa.corpus.corpus import Corpus
 
 class Wikipedia(Corpus):
     def __init__(self, tokenizer):

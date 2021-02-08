@@ -1,1 +1,1 @@
-"""Unit test package for the_wizard_express."""
+"""Unit test package for odqa."""

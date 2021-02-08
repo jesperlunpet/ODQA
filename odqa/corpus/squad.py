@@ -3,7 +3,7 @@ import os
 from datasets import load_dataset
 
 from ..config import Config
-from the_wizard_express.corpus.corpus import Corpus
+from odqa.corpus.corpus import Corpus
 
 class Squad2(Corpus):
     def __init__(self, tokenizer):
